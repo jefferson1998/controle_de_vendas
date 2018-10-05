@@ -13,7 +13,7 @@
  		$this->arrayProdutos = $produtos;
  		$this->recebido = 0
  		for ($i=0; $i < sizeof($produtos); $i++) { 
- 			$this->gasto = $this->gasto + $produtos[i]->getValor();
+ 			$this->gasto = $this->gasto + ($produtos[i]->getValor() * $produtos->getQuantidade());
  		}
  	}
 
