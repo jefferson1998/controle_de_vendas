@@ -1,8 +1,7 @@
 -- Controle de Vendas de Salgados --
 
-Descrição: O Sistema de Controle de Vendas de Salgados tem como princípio o monitoramento dos produtos para o bom funcionamento das vendas, o sistema contará com o CRUD de Produto, Fornecedor e a verificação de Estoque.
+Descrição: O Sistema de Controle de Vendas de Salgados tem como princípio o monitoramento dos produtos para o bom funcionamento das vendas.
 
 Objetivo: Controlar os gastos da venda de salgados, por meio do monitoramento de produtos e o relatório de vendas.
 
 Funções: Monitorar a Entrada e Saída de Produtos; CRUD de Produtos, CRUD de Fornecedor e Gerar relatório de vendas.
-

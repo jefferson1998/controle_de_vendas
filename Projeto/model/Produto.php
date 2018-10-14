@@ -3,12 +3,10 @@
 	class Produto {
 
 		private $nome;
-		private $quantidade;
 		private $valor;
 
-		public function __construct($nome, $quantidade, $valor) {
+		public function __construct($nome, $valor) {
 			$this->nome = $nome;
-			$this->quantidade = $quantidade;
 			$this->valor = $valor;
 		}
 
@@ -31,16 +29,6 @@
 			
 		}
 
-		public function getQuantidade() {
-			return $this->quantidade;
-		}
-
-		public function setQuantidade($quantidade) {
-			if ($quantidade > 0) {
-				$this->quantidade = $quantidade;
-			}
-			
-		}
 	}
 
 ?>

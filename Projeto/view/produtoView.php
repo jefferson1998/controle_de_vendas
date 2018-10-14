@@ -7,7 +7,7 @@
 	<?php  
 		require "model\Produto.php";
 
-		$produto = new Produto("Coxinha", 0, 2.00);
+		$produto = new Produto("Coxinha", 2.00);
 
 		echo $produto->getNome();
 
@@ -15,7 +15,7 @@
 
 		$produto->setQuantidade(-1);
 
-		echo "<br>" . $produto->getQuantidade();
+		echo "<br>" . s;
 	?>
 </body>
 </html>
